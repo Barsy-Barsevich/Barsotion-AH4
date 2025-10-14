@@ -7,7 +7,7 @@
 	(title_block
 		(title "Barsotion AH4 - ICM-45686 devboard")
 		(date "2025-10-14")
-		(rev "1.4")
+		(rev "1.5")
 		(company "Barsotion KOy")
 		(comment 1 "Barsy-Barsevich")
 	)
@@ -10599,7 +10599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, yellow 0805"
 			(at 124.46 177.8 0)
 			(effects
 				(font
@@ -10836,7 +10836,7 @@
 		(at 256.54 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11128,7 +11128,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 208.534 50.292 0)
 			(effects
 				(font
@@ -11291,6 +11291,15 @@
 			)
 		)
 		(property "Description" "USB serial converter, 5V-tolerant IO, UART, MSOP-10"
+			(at 41.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr.Part" "CH340X"
 			(at 41.91 139.7 0)
 			(effects
 				(font
@@ -11475,7 +11484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr.Part" "   CHS-02TB1 "
+		(property "Mfr.Part" "CHS-02TB1 "
 			(at 255.27 41.91 0)
 			(effects
 				(font
@@ -11748,7 +11757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RISC-V WCH MCU"
 			(at 172.72 63.5 0)
 			(effects
 				(font
@@ -12111,7 +12120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "435e7851-1ef1-4ebc-87d6-2be4cec3d234")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 39.37 177.038 0)
 			(effects
 				(font
@@ -12146,7 +12155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red 0805"
 			(at 39.37 180.34 0)
 			(effects
 				(font
@@ -12173,7 +12182,7 @@
 		(instances
 			(project "AH4"
 				(path "/9bb009d6-2388-4e89-bd21-3189acc261ba"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -12293,6 +12302,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr.Part" "USBLC6-2SC6"
 			(at 69.85 90.17 0)
 			(effects
 				(font
@@ -12743,7 +12761,7 @@
 		(at 232.41 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12897,7 +12915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b8c7982-70ba-4930-9375-35fce7f43869")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 39.37 170.688 0)
 			(effects
 				(font
@@ -12932,7 +12950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red 0805"
 			(at 39.37 173.99 0)
 			(effects
 				(font
@@ -12959,7 +12977,7 @@
 		(instances
 			(project "AH4"
 				(path "/9bb009d6-2388-4e89-bd21-3189acc261ba"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -14438,7 +14456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr.Part" "   CHS-02TB1 "
+		(property "Mfr.Part" "CHS-02TB1 "
 			(at 255.27 26.67 0)
 			(effects
 				(font
@@ -14753,7 +14771,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 134.62 152.4 0)
 			(effects
 				(font
@@ -14821,7 +14839,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 67.056 152.654 90)
 			(effects
 				(font
@@ -15520,6 +15538,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr.Part" "TYPE C-DB-116PWB"
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S1"
 			(uuid "071b8f48-2553-4b3f-8208-9d7aa814f491")
 		)
@@ -15767,7 +15794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr.Part" "   CHS-02TB1 "
+		(property "Mfr.Part" "CHS-02TB1 "
 			(at 92.71 176.53 0)
 			(effects
 				(font
@@ -15910,6 +15937,15 @@
 			)
 		)
 		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 100.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr.Part" "AP2112K-3.3TRG1"
 			(at 100.33 30.48 0)
 			(effects
 				(font
@@ -16133,6 +16169,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr.Part" "USBLC6-2SC6"
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "08eb5e28-c2e2-4af5-afc7-7d23b178efa2")
 		)
@@ -16178,7 +16223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 201.422 50.292 0)
 			(effects
 				(font
@@ -16428,7 +16473,7 @@
 		(at 256.54 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dae54e97-4b2a-400a-a75a-4e27d2acc172")
@@ -16505,7 +16550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbc756fd-a0e2-4424-854d-7f5a4434bd93")
-		(property "Reference" "D7"
+		(property "Reference" "D2"
 			(at 101.092 88.9 90)
 			(effects
 				(font
@@ -16540,7 +16585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, yellow 0805"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -16567,7 +16612,7 @@
 		(instances
 			(project "AH4"
 				(path "/9bb009d6-2388-4e89-bd21-3189acc261ba"
-					(reference "D7")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16716,7 +16761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfefb323-348b-45f2-b77d-bfaafe326320")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 39.37 164.338 0)
 			(effects
 				(font
@@ -16751,7 +16796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Light emitting diode, red 0805"
 			(at 39.37 167.64 0)
 			(effects
 				(font
@@ -16778,7 +16823,7 @@
 		(instances
 			(project "AH4"
 				(path "/9bb009d6-2388-4e89-bd21-3189acc261ba"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -17206,7 +17251,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inertial measurement unit"
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr.Part" "ICM-45686"
 			(at 162.56 38.1 0)
 			(effects
 				(font
@@ -17665,6 +17719,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr.Part" "TYPE C-DB-116PWB"
+			(at 34.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S1"
 			(uuid "e29585ea-e7c7-400f-a7b8-aa9067c5cd2c")
 		)
@@ -18071,7 +18134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 60.96 140.9699 0)
 			(effects
 				(font
