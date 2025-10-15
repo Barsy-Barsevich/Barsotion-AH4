@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Barsotion AH4 - ICM-45686 devboard")
-		(date "2025-10-14")
-		(rev "1.5")
+		(date "2025-10-15")
+		(rev "1.6")
 		(company "Barsotion KOy")
 		(comment 1 "Barsy-Barsevich")
+		(comment 2 "rev1.6: 1.5k resistors became 1k")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -10780,7 +10781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k"
 			(at 126.238 185.42 0)
 			(effects
 				(font
@@ -11662,7 +11663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k"
 			(at 52.832 177.546 90)
 			(effects
 				(font
@@ -13134,7 +13135,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k"
 			(at 52.832 164.846 90)
 			(effects
 				(font
@@ -14080,7 +14081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "1k"
 			(at 52.832 171.196 90)
 			(effects
 				(font
